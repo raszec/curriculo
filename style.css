@@ -1,106 +1,53 @@
-/* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  color: #333;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #0077cc;
+  color: white;
+  padding: 30px;
+  text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+.btn-download {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #ffffff;
+  color: #0077cc;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.btn-download:hover {
+  background-color: #e0e0e0;
 }
 
-section h2 {
-    color: #333;
-    font-size: 1.8em;
-    margin-bottom: 15px;
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
 
-/* Estilo das informações pessoais */
-.info p {
-    font-size: 1.1em;
-    line-height: 1.6;
+h2 {
+  color: #0077cc;
+  margin-top: 30px;
 }
 
-/* Estilo do botão de download */
-.download button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.download button:hover {
-    background-color: #45a049;
-}
-
-.download a {
-    text-decoration: none;
-}
-
-/* Estilo da lista de habilidades e experiências */
 ul {
-    list-style-type: none;
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-ul li ul {
-    list-style-type: square;
-    margin-left: 20px;
+  padding-left: 20px;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+  margin-top: 40px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    body {
-        font-size: 1em;
-    }
-
-    section {
-        margin: 10px;
-        padding: 15px;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    .download button {
-        padding: 10px 20px;
-        font-size: 1em;
-    }
-}
